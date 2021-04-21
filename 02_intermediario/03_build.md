@@ -4,12 +4,12 @@
 #### Criar aquivo com nome:
 Dockerfile
 
-## Inserir instruções no documento
+### Inserir instruções no documento
 - exemplo:
 
 ```
 FROM  nginx:latest 
-RUN echo '<h1>Hello World !</h1>' /usr/share/nginx/html/index.html`
+RUN echo '<h1>Hello World !</h1>' > /usr/share/nginx/html/index.html`
 ```
 
 #### No terminal roda o comando de build
